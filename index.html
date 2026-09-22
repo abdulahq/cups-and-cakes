@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cups and Cakes - a home patisserie in I-8/2, Islamabad. Hand-iced cupcakes, fudgy brownies and bespoke custom cakes, baked in small batches. 4.4 rated on Google.">
+  <title>Cups and Cakes | Home Patisserie · Islamabad</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="loader" id="loader">
+    <div class="loader-mono">C&nbsp;C</div>
+    <div class="loader-line"></div>
+  </div>
+
+  <div class="progress" id="progress" aria-hidden="true"></div>
+
+  <header class="header" id="header">
+    <nav class="navbar container">
+      <a href="#home" class="brand">
+        <span class="brand-mono">C&C</span>
+        <span class="brand-text">Cups <em>&</em> Cakes <small>Home Patisserie</small></span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#collection" class="nav-link">Collection</a></li>
+        <li><a href="#menu" class="nav-link">Catalogue</a></li>
+        <li><a href="#story" class="nav-link">The Craft</a></li>
+        <li><a href="#reviews" class="nav-link">Reviews</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <a href="#contact" class="btn btn-order">Bespoke Order</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="home">
+      <div class="hero-tilt" id="heroTilt">
+        <div class="pz layer-ring1" style="--z: -140px"></div>
+        <div class="pz layer-ring2" style="--z: -80px"></div>
+        <div class="pz layer-diamond" style="--z: 60px" data-rot="45"></div>
+        <div class="pz layer-dot" style="--z: 40px"></div>
+        <div class="pz layer-line" style="--z: -40px"></div>
+        <div class="pz layer-ring3" style="--z: 100px"></div>
+      </div>
+
+      <div class="container hero-inner" id="heroInner">
+        <span class="hero-label reveal-h">Home Patisserie · I-8/2, Islamabad</span>
+        <h1 class="reveal-h">Every cup iced by hand.<br><em>Every cake, a quiet occasion.</em></h1>
+        <p class="reveal-h">Cupcakes, brownies and bespoke cakes — baked in small batches from real butter and honest chocolate, in a home kitchen in the heart of Islamabad.</p>
+        <div class="hero-actions reveal-h">
+          <a href="#menu" class="btn btn-gold">Explore the Catalogue</a>
+          <a href="#contact" class="btn btn-ghost">Make a Bespoke Enquiry</a>
+        </div>
+        <div class="hero-meta reveal-h">
+          <div class="hm"><strong>4.4</strong><span>Google Rating</span></div>
+          <div class="hm"><strong>175+</strong><span>Customer Reviews</span></div>
+          <div class="hm"><strong>100%</strong><span>Hand-Baked</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PRINCIPLES ================= -->
+    <section class="principles">
+      <div class="container">
+        <div class="principles-grid">
+          <div class="principle reveal">
+            <span class="p-num">I.</span>
+            <h3>Real Ingredients</h3>
+            <p>Real butter, single-origin chocolate and vanilla — never premix, never shortcuts.</p>
+          </div>
+          <div class="principle reveal" data-delay="120">
+            <span class="p-num">II.</span>
+            <h3>Baked to Order</h3>
+            <p>Nothing sits on a shelf. Every batch is made for the occasion it serves.</p>
+          </div>
+          <div class="principle reveal" data-delay="240">
+            <span class="p-num">III.</span>
+            <h3>Delivered Fresh</h3>
+            <p>Hand-packed and delivered across Islamabad, still fresh from the oven.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SIGNATURE COLLECTION ================= -->
+    <section class="section collection" id="collection">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="kicker">The Collection</span>
+          <span class="rule"></span>
+          <h2>The Signature Selection</h2>
+          <p class="lead">Three house favourites — composed, refined and made without compromise.</p>
+        </div>
+
+        <div class="collection-grid">
+          <article class="sig-card reveal">
+            <div class="sig-icon"><svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M32 8c-6.5 0-10 5.5-9 11-1.6 1.2-2.5 3-2.5 5 0 3.6 2.9 6.5 6.5 6.5h10c3.6 0 6.5-2.9 6.5-6.5 0-2-.9-3.8-2.5-5 1-5.5-2.5-11-9-11z"/><path d="M21 32h22l-3.5 24h-15z"/><path d="M26.5 32l-1.3 24M37.5 32l1.3 24"/><path d="M32 14v6"/></svg></div>
+            <span class="sig-name">The Classic Dozen</span>
+            <p>Twelve hand-iced cupcakes in an assorted selection — vanilla, chocolate and red velvet.</p>
+            <span class="sig-price">Rs. 2,200</span>
+          </article>
+
+          <article class="sig-card reveal" data-delay="120">
+            <div class="sig-icon"><svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><rect x="12" y="26" width="40" height="26" rx="3"/><path d="M12 33h40"/><path d="M22 26v26M32 26v26M42 26v26"/><path d="M20 26c1.5 4 6 4 7.5 0M34 26c1.5 4 6 4 7.5 0"/><circle cx="26" cy="39" r="1.6"/><circle cx="38" cy="45" r="1.6"/><path d="M32 26c1.5 3.5 4 3.5 5.5 0"/></svg></div>
+            <span class="sig-name">The Fudgy Box</span>
+            <p>Nine squares of dense, fudgy brownie — dark chocolate and toasted walnut — gift-wrapped.</p>
+            <span class="sig-price">Rs. 2,400</span>
+          </article>
+
+          <article class="sig-card reveal" data-delay="240">
+            <div class="sig-icon"><svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M32 6 52 42H12z"/><path d="M12 42h40v8H12z"/><path d="M32 6v44"/><path d="M26 24c4 3 8 3 12 0M24 34c4 3 8 3 12 0"/><circle cx="32" cy="5" r="3"/><path d="M24 46h16"/></svg></div>
+            <span class="sig-name">The Bespoke Cake</span>
+            <p>A fully custom cake — your theme, your palette, your date. Designed, baked and finished to order.</p>
+            <span class="sig-price">From Rs. 2,500</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CATALOGUE ================= -->
+    <section class="section menu" id="menu">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="kicker">The Catalogue</span>
+          <span class="rule"></span>
+          <h2>Baked &amp; iced to order</h2>
+          <p class="lead">Indicative prices for our everyday range. Bespoke pieces are quoted individually.</p>
+        </div>
+
+        <div class="menu-tabs reveal" id="menuTabs">
+          <button class="menu-tab active" data-cat="cupcakes">Cupcakes</button>
+          <button class="menu-tab" data-cat="brownies">Brownies</button>
+          <button class="menu-tab" data-cat="cakes">Custom Cakes</button>
+        </div>
+
+        <div class="menu-list reveal" id="menuList"></div>
+      </div>
+    </section>
+
+    <!-- ================= STORY ================= -->
+    <section class="section story" id="story">
+      <div class="container story-wrap">
+        <div class="story-visual reveal">
+          <div class="scene">
+            <div class="orbit o1" data-depth="0.18"><span class="orbit-mono">est. with love</span></div>
+            <div class="orbit o2" data-depth="0.10"></div>
+            <div class="core" data-depth="0.05">
+              <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M32 6 52 42H12z"/><path d="M12 42h40v8H12z"/><path d="M32 6v44"/><path d="M26 24c4 3 8 3 12 0M24 34c4 3 8 3 12 0"/>
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <div class="story-text">
+          <div class="section-head reveal">
+            <span class="kicker">The Craft</span>
+            <span class="rule"></span>
+            <h2>A home kitchen<br>that takes its time</h2>
+          </div>
+          <p class="reveal" data-delay="80">Cups and Cakes began in a single home kitchen on Street 39 — one oven, one piping bag, and a stubborn belief that baking deserves patience. Every sponge is weighed by hand. Every swirl is piped slowly. Every custom cake is a conversation first, a dessert second.</p>
+          <p class="reveal" data-delay="160">There is no assembly line here. Just small batches, real ingredients, and a quiet standard that has earned the trust of our regulars across Islamabad.</p>
+
+          <div class="stats reveal" data-delay="240">
+            <div class="stat">
+              <strong><span class="count" data-count="4.4" data-dec="1">0</span>★</strong>
+              <span>Google Rating</span>
+            </div>
+            <div class="stat">
+              <strong><span class="count" data-count="175">0</span>+</strong>
+              <span>Reviews</span>
+            </div>
+            <div class="stat">
+              <strong><span class="count" data-count="100">0</span>%</strong>
+              <span>Hand-Baked</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= REVIEWS ================= -->
+    <section class="section reviews" id="reviews">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="kicker">Kind Words</span>
+          <span class="rule"></span>
+          <h2>What our regulars say</h2>
+        </div>
+        <div class="reviews-grid" id="reviewsGrid"></div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section class="section contact" id="contact">
+      <div class="container contact-wrap">
+        <div class="contact-info reveal">
+          <span class="kicker">Enquiries</span>
+          <span class="rule"></span>
+          <h2>Begin with a note</h2>
+          <p class="lead">Tell us the occasion, the theme and the date. We will reply within the day with a sketch and a quote.</p>
+          <div class="info-rows">
+            <div class="info-row">
+              <span class="info-label">Address</span>
+              <p>House No. 46-G, Street 39, I-8/2, Islamabad</p>
+            </div>
+            <div class="info-row">
+              <span class="info-label">Telephone</span>
+              <p>+92 305 1111262</p>
+            </div>
+            <div class="info-row">
+              <span class="info-label">Hours</span>
+              <p>Daily · 10:00 AM – 10:00 PM</p>
+            </div>
+            <div class="info-row">
+              <span class="info-label">Delivery</span>
+              <p>Islamabad-wide. Custom cakes need 24–48 hours' notice.</p>
+            </div>
+          </div>
+        </div>
+
+        <form class="enquiry-form reveal" id="orderForm" novalidate>
+          <span class="form-title">Bespoke Order Enquiry</span>
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" placeholder="Your name" required>
+            <span class="error" id="nameError"></span>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" placeholder="03XX-XXXXXXX" required>
+            <span class="error" id="phoneError"></span>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="date">Date Needed</label>
+              <input type="date" id="date" required>
+              <span class="error" id="dateError"></span>
+            </div>
+            <div class="form-group">
+              <label for="occasion">Occasion</label>
+              <select id="occasion">
+                <option>Birthday</option>
+                <option>Wedding / Anniversary</option>
+                <option>Baby Shower</option>
+                <option>Corporate Order</option>
+                <option>Other</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="message">Details &amp; Inspiration</label>
+            <textarea id="message" rows="3" placeholder="Theme, colours, flavour, reference photos..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-gold btn-block">Send Enquiry on WhatsApp</button>
+          <p class="form-success" id="formSuccess"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <span class="brand-mono dark">C&C</span>
+        <p>Cupcakes, brownies and bespoke cakes — baked by hand in Islamabad.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="#collection">Collection</a></li>
+          <li><a href="#menu">Catalogue</a></li>
+          <li><a href="#story">The Craft</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Find Us</h4>
+        <p>46-G, Street 39, I-8/2, Islamabad</p>
+        <p>+92 305 1111262</p>
+        <p>Daily · 10 AM – 10 PM</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© <span id="year"></span> Cups and Cakes, Islamabad. Baked with patience.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
